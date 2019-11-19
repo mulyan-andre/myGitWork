@@ -1,0 +1,320 @@
+body {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #mainDiv {
+    width: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #fDiv {
+    height: 100%;
+    width: 900px;
+    border: 1px solid grey;
+    max-height: 1000px;
+    background-color: lightgray;
+  }
+  #psh {
+    margin: 20px;
+  }
+  
+  .btn-warning {
+    width: 75px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    width: 75px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .btn-danger {
+    width: 75px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .btn-success {
+    width: 75px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #fButtons {
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #textA {
+    margin-top: 20px;
+    width: 900px;
+    height: 200px;
+    background-color: lightgray;
+  }
+  
+  #sButtons {
+    display: flex;
+    display: none;
+  }
+  
+  #styleDiv {
+    width: 900px;
+    height: 400px;
+    display: none;
+    background-color: lightgray;
+    margin-top: 20px;
+  }
+  
+  #form1 {
+    margin-left: 20px;
+  }
+  
+  #inputState {
+    width: 200px;
+  }
+  #textColor {
+    width: 100px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+  }
+  #backColor {
+    width: 150px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+  }
+  #tColorB {
+    height: 210px;
+    width: 210px;
+    margin-left: 500px;
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+  }
+  #d1 {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+  }
+  #d2 {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+  }
+  #d3 {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+  }
+  #d4 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+  }
+  #d5 {
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+  }
+  #d6 {
+    width: 70px;
+    height: 70px;
+    background-color: salmon;
+  }
+  #d7 {
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+  }
+  #d8 {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+  }
+  #d9 {
+    width: 70px;
+    height: 70px;
+    background-color: gold;
+  }
+  
+  #bColorB {
+    height: 210px;
+    width: 210px;
+    margin-left: 500px;
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+  }
+  
+  #b1 {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+  }
+  #b2 {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+  }
+  #b3 {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+  }
+  #b4 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+  }
+  #b5 {
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+  }
+  #b6 {
+    width: 70px;
+    height: 70px;
+    background-color: salmon;
+  }
+  #b7 {
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+  }
+  #b8 {
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+  }
+  #b9 {
+    width: 70px;
+    height: 70px;
+    background-color: gold;
+  }
+  #addItemDiv {
+    height: 300px;
+    width: 900px;
+    background-color: lightgray;
+    display: none;
+  }
+  #tableR {
+    display: none;
+  }
+  #stylingAdd {
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  #countTr {
+    width: 700px;
+    margin-left: 42px;
+  }
+  #countTd {
+    width: 700px;
+    margin-left: 42px;
+  }
+  #widthTd {
+    width: 700px;
+    margin-left: 25px;
+  }
+  #heightTd {
+    width: 700px;
+    margin-left: 20px;
+  }
+  #widthB {
+    width: 100px;
+  }
+  #typeB {
+    width: 100px;
+    margin-left: 15px;
+  }
+  #colorB {
+    width: 100px;
+    margin-left: 15px;
+  }
+  #typeSp {
+    margin-left: 40px;
+  }
+  #colorSp {
+    margin-left: 40px;
+  }
+  #st {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #listR {
+    display: none;
+  }
+  
+  #liCount {
+    width: 700px;
+    margin-left: 45px;
+  }
+  #markType {
+    width: 700px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  #backB {
+    height: 30px;
+    margin: 20px;
+  }
+  #rd2 {
+    margin-left: 15px;
+  }
+  #rd3 {
+    margin-left: 15px;
+  }
+  #rd4 {
+    margin-left: 15px;
+  }
+  #rd5 {
+    margin-left: 15px;
+  }
+  #fss {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #ff {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  #createLists {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+  }
+  
+  #clrs {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #cursiveT {
+    margin-left: 20px;
+  }
+  #createTables {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+  }
+  

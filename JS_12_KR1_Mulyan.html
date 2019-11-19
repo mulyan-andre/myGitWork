@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="JS_12_KR1_Mulyan.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>JS_12_KR1_Mulyan</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="fDiv">
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+            <p id="psh">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div id="addItemDiv">
+            <input type="button" name="" id="backB" value="<Back">
+            <div id="stylingAdd">
+                <h3>Choose what you want:</h3>
+            <input type="radio" name="rdio" id="tableVisible"> Table
+            <input type="radio" name="rdio" id="listVisible"> List
+                <div id="tableR">
+                    <p>Count TR:   <input placeholder="Count TR" value="" type="text" name="" id="countTr"></p>
+                    <p>Count TD:   <input placeholder="Count TD" value="" type="text" name="" id="countTd"></p>
+                    <h4>Add style to your table:</h4>
+                    <p>Width of TD: <input placeholder="Width TD" value="" type="text" name="" id="widthTd"></p>
+                    <p>Height of TD: <input placeholder="Height TD" value = "" type="text" name="" id="heightTd"></p>
+                    <span>Width of border: <input placeholder="Width" value='' type="text" name="" id="widthB"></span> <span id="typeSp">Type of border: <select name="" id="typeB"><option value="solid">solid</option><option value="dashed">dashed</option></select></span><span id="colorSp">Color of border: <select name="" id="colorB"><option value="red">Red</option>
+                <option value="green">Green</option></select></span>
+                    <p><input type="button" name="" id="createTables" value="Create table"></p>
+                </div>
+                <div id="listR">
+                    <p>Count of li:<input placeholder="Count Li" type="text" name="" id="liCount"></p>
+                    <p>Types of marks:<select name="" id="markType"><option value="circle">circle</option><option value="square">square</option></select></p>
+                    <p><input type="button" name="" id="createLists" value="Create list"></p>
+                </div>
+            </div>
+        </div>
+        <div id="sDiv">
+        <div id="fButtons">
+            <button type="button" class="btn btn-warning" id="firstB">Edit</button>
+            <button type="button" class="btn btn-primary" id="secondB">Style</button>
+        </div>
+            <textarea id="textA"></textarea>
+        <div id="sButtons">
+            <button type="button" class="btn btn-danger" id="thirdB">Add</button>
+            <button type="button" class="btn btn-success" id="fourthB">Save</button>
+        </div>
+        </div>
+        <div id="styleDiv">
+            <form name="styleForm" id="form1">
+                <p id="fss">Font Size:</p>
+                <input type="radio" name="rad" id="rd1"> 12px
+                <input type="radio" name="rad" id="rd2"> 14px
+                <input type="radio" name="rad" id="rd3"> 16px
+                <input type="radio" name="rad" id="rd4"> 18px
+                <input type="radio" name="rad" id="rd5"> 20px
+                <p id="ff">Font Family:</p>
+            <select id="inputState" class="form-control">
+                <option selected>Choose Font Family</option>
+                <option id="fontF" value="monospace">Monospace</option>
+                <option id="defaultF" value="cursive">Cursive</option>
+            </select>
+                <p id="clrs">Colors:</p>
+                <input type="button" id="textColor" value="Text Color">
+                <input type="button" id="backColor" value="Backgorund Color">
+        <div id='tColorB'>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d3"></div>
+            <div id="d4"></div>
+            <div id="d5"></div>
+            <div id="d6"></div>
+            <div id="d7"></div>
+            <div id="d8"></div>
+            <div id="d9"></div>
+        </div>
+        <div id='bColorB'>
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+            <div id="b4"></div>
+            <div id="b5"></div>
+            <div id="b6"></div>
+            <div id="b7"></div>
+            <div id="b8"></div>
+            <div id="b9"></div>
+        </div>
+            <p id="st">Style:</p>
+            <input type="checkbox" name="fw" id="boldT"> Bold
+            <input type="checkbox" name="fwd" id="cursiveT"> Cursive
+            </form>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="JS_12_KR1_Mulyan.js"></script>
+ </body>
+</html>
